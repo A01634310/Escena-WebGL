@@ -12,7 +12,7 @@ Para instalar y correr el repositorio favor de correr:
 
 ```bash
 # Instalar dependencias
-npm install && npm run dev
+npm install
 
 # Correr el proyecto en un servidor local ubicado en localhost:8080
 npm run dev
