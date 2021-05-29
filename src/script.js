@@ -38,11 +38,12 @@ function init() {
   );
 
   // Lights
-  const pointLight = new THREE.PointLight(0xffffff, 2, 200);
-  pointLight.position.x = 2;
-  pointLight.position.y = 3;
-  pointLight.position.z = 4;
-  scene.add(pointLight);
+  const light = new THREE.PointLight(0xffffff, 2, 200);
+  light.position.x = -20;
+  light.position.y = 25;
+  light.position.z = 15;
+  light.castShadow = "true";
+  scene.add(light);
 
   /**
    * Sizes
